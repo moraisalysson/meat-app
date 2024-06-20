@@ -1,0 +1,24 @@
+<!-- Início do header -->
+  <header class="main-header">
+  <nav class="main-header navbar navbar-expand navbar-light navbar-white">
+    <div class="container">
+      <div class="navbar-header">
+        <a [routerLink]="['/']" class="navbar-brand"><b>Meat</b></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+        <ul class="navbar-nav">
+            <li routerLinkActive="active" class="nav-item d-none d-sm-inline-block"><a [routerLink]="['/restaurants']" class="nav-link">Restaurantes</a></li>
+            <li routerLinkActive="active" class="nav-item d-none d-sm-inline-block"><a [routerLink]="['/about']" class="nav-link">Sobre</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+  </nav>
+  </header>
+  <!-- Fim do header -->
