@@ -10,6 +10,7 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { RestaurantComponent } from './restaurants/restaurant/restaurant.component';
 import { RestaurantsService } from './restaurants/restaurants.service';
 import { HTTP_INTERCEPTORS, HttpClientModule, HttpErrorResponse, ɵHttpInterceptorHandler } from '@angular/common/http';
+import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HTTP_INTERCEPTORS, HttpClientModule, HttpErrorResponse, ɵHttpIntercept
     HomeComponent,
     AboutComponent,
     RestaurantsComponent,
-    RestaurantComponent
+    RestaurantComponent,
+    RestaurantDetailComponent
   ],
   imports: [
     BrowserModule,
